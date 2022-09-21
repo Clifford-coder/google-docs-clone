@@ -1,11 +1,13 @@
-import './App.css';
+import './App.css'
+
+import {TextEditor} from '@/components/TextEditor'
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <TextEditor />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
